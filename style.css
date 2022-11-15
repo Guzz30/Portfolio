@@ -1,20 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
 body {
   min-height: 2000px;
+  font-family: 'Trispace', sans-serif;
 }
 
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #323232;
   height: auto;
+}
+
+.jumbotron img {
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 #contact,
 #about {
-  background-color: white;
+  background-color: #212121;
+}
+
+.navbar {
+  color: #212121;
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: #323232;
+}
+
+.nav-custom {
+  background-color: #8758FF;
+  color: #212121;
+}
+
+.card-body, p {
+  color: white;
+}
+
+.bg-custom {
+  background-color: #323232;
+}
+
+.btn-custom {
+  background-color: #8758FF;
+}
+
+.btn-custom:hover {
+  background-color: #6a49bf;
+}
+
+.card-custom {
+  background-color: #8758FF;
+}
+
+.alert {
+  margin-top: 20px;
 }
 
 footer a {
@@ -23,4 +63,9 @@ footer a {
 
 section {
   padding-top: 5rem;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
 }
