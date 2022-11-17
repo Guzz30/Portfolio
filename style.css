@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap");
 body {
   min-height: 2000px;
-  font-family: 'Trispace', sans-serif;
+  font-family: "Trispace", sans-serif;
 }
 
 .jumbotron {
@@ -29,11 +29,12 @@ body {
 }
 
 .nav-custom {
-  background-color: #8758FF;
+  background-color: #8758ff;
   color: #212121;
 }
 
-.card-body, p {
+.card-body,
+p {
   color: white;
 }
 
@@ -42,7 +43,7 @@ body {
 }
 
 .btn-custom {
-  background-color: #8758FF;
+  background-color: #8758ff;
 }
 
 .btn-custom:hover {
@@ -50,7 +51,7 @@ body {
 }
 
 .card-custom {
-  background-color: #8758FF;
+  background-color: #8758ff;
 }
 
 .alert {
