@@ -5,14 +5,19 @@ body {
 }
 
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 5rem;
   background-color: #323232;
   height: auto;
 }
 
-.jumbotron img {
+.img-fluid {
   margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 70px;
+}
+
+.lead {
+  padding-bottom: 40px;
+  margin-bottom: -200px;
 }
 
 #contact,
@@ -59,14 +64,35 @@ p {
 }
 
 footer a {
-  color: white;
+  color: #8758ff;
+}
+
+footer {
+  font-size: 10px;
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .btn {
   margin-top: 10px;
   padding: 10px 20px;
+}
+
+
+@media (max-width: 600px) {
+  .card img {
+    margin-bottom: 0;
+  }
+  .nav-link{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .nav-link:hover{
+    background-color: #323232;
+  }
+  .lead {
+    margin-bottom: -100px;
+  }
 }
