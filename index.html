@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<div class="fakeLoader"></div>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -19,7 +20,6 @@
 
     <title>My Portfolio</title>
   </head>
-  <div class="fakeLoader"></div>
   <body id="home">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark nav-custom shadow-sm fixed-top">
@@ -50,7 +50,8 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center text-light">
-        <img src="img/12.jpeg" alt="pictureofme" width="295px" style="height:300px;" class="rounded-circle img-fluid shadow-sm">
+        <img src="img/hero.png" alt="pictureofme" class="img-hero">
+        <img src="img/output-onlinegiftools.gif" alt="gif" class="gif-hero">
         <h2 class="display-8">Bagus Dwi Hermawan S</h2>
         <p class="lead text-light"></p>
       <section/>
@@ -210,7 +211,7 @@
             $(document).ready(function () {
                 $.fakeLoader({
                     bgColor: '#212121',
-                    spinner:"spinner6",
+                    spinner:"spinner4",
                     timeToHide:4000
                 });
             });

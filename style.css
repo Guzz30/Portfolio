@@ -5,14 +5,46 @@ body {
 }
 
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 2rem;
   background-color: #323232;
   height: auto;
 }
 
-.img-fluid {
-  margin-bottom: 50px;
-  margin-top: 70px;
+.fakeLoader {
+  color: red;
+}
+
+.img-hero {
+  width: 600px;
+  height: 600px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  animation: imghero 1s linear infinite both;
+}
+
+.gif-hero {
+  width: 100px;
+  left: 60%;
+  margin: 100px auto;
+  position: absolute;
+  animation: gif 6s infinite;
+}
+
+@keyframes imghero {
+  50% {
+    transform: translate(0, 5px);
+  }
+}
+
+@keyframes gif {
+  50% {
+    left: 45%;
+    margin: 300px auto;
+  }
+  75% {
+    left: 49%;
+    margin: 190px auto;
+  }
 }
 
 .lead {
@@ -85,14 +117,49 @@ section {
   .card img {
     margin-bottom: 0;
   }
+
   .nav-link{
     text-align: center;
     margin-bottom: 5px;
   }
+
   .nav-link:hover{
     background-color: #323232;
   }
+
   .lead {
     margin-bottom: -100px;
+  }
+
+  .img-hero {
+    width: 80%;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .gif-hero {
+    width: 80px;
+    left: 70%;
+    margin: 120px auto;
+    position: absolute;
+    animation: gif 6s infinite;
+  }
+
+  @keyframes gif {
+    50% {
+      left: 45%;
+      margin: 190px auto;
+    }
+    75% {
+      left: 40%;
+      margin: 300px auto;
+    }
+  }
+
+  @keyframes imghero {
+    50% {
+    transform: translate(0, 5px);
+    }
   }
 }
